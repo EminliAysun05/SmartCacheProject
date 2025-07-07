@@ -1,0 +1,59 @@
+name: dockercompose10382874087803918254
+services:
+  cachesmartproject:
+    build:
+      context: C:\Users\namjoon\source\repos\CacheSmartProject
+      dockerfile: CacheSmartProject/Dockerfile
+    depends_on:
+      postgres-db:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_HTTPS_PORTS: "8081"
+    networks:
+      smart-net: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "5252"
+        protocol: tcp
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\namjoon\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\namjoon\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+  postgres-db:
+    container_name: postgres-db
+    environment:
+      POSTGRES_DB: cacheSmartTest
+      POSTGRES_PASSWORD: YeniSifre123
+      POSTGRES_USER: postgres
+    image: postgres
+    networks:
+      smart-net: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "5432"
+        protocol: tcp
+    restart: always
+networks:
+  smart-net:
+    name: dockercompose10382874087803918254_smart-net
+    driver: bridge

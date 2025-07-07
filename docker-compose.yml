@@ -1,0 +1,6 @@
+services:
+  cachesmartproject:
+    image: ${DOCKER_REGISTRY-}cachesmartproject
+    build:
+      context: .
+      dockerfile: CacheSmartProject/Dockerfile

@@ -1,0 +1,994 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{799FC10D-E575-4373-AF5F-4D0B4FDA1D2D}|CacheSmartProject.Persistance\\CacheSmartProject.Persistance.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.persistance\\repositories\\implementations\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799FC10D-E575-4373-AF5F-4D0B4FDA1D2D}|CacheSmartProject.Persistance\\CacheSmartProject.Persistance.csproj|solutionrelative:cachesmartproject.persistance\\repositories\\implementations\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF502D22-7517-49A7-84F2-E47924658351}|CacheSmartProject.Infrastructure\\CacheSmartProject.Infrastructure.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.infrastructure\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF502D22-7517-49A7-84F2-E47924658351}|CacheSmartProject.Infrastructure\\CacheSmartProject.Infrastructure.csproj|solutionrelative:cachesmartproject.infrastructure\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799FC10D-E575-4373-AF5F-4D0B4FDA1D2D}|CacheSmartProject.Persistance\\CacheSmartProject.Persistance.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.persistance\\repositories\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799FC10D-E575-4373-AF5F-4D0B4FDA1D2D}|CacheSmartProject.Persistance\\CacheSmartProject.Persistance.csproj|solutionrelative:cachesmartproject.persistance\\repositories\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799FC10D-E575-4373-AF5F-4D0B4FDA1D2D}|CacheSmartProject.Persistance\\CacheSmartProject.Persistance.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.persistance\\repositories\\implementations\\servicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799FC10D-E575-4373-AF5F-4D0B4FDA1D2D}|CacheSmartProject.Persistance\\CacheSmartProject.Persistance.csproj|solutionrelative:cachesmartproject.persistance\\repositories\\implementations\\servicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF502D22-7517-49A7-84F2-E47924658351}|CacheSmartProject.Infrastructure\\CacheSmartProject.Infrastructure.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.infrastructure\\services\\serviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF502D22-7517-49A7-84F2-E47924658351}|CacheSmartProject.Infrastructure\\CacheSmartProject.Infrastructure.csproj|solutionrelative:cachesmartproject.infrastructure\\services\\serviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799FC10D-E575-4373-AF5F-4D0B4FDA1D2D}|CacheSmartProject.Persistance\\CacheSmartProject.Persistance.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.persistance\\repositories\\interfaces\\iservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799FC10D-E575-4373-AF5F-4D0B4FDA1D2D}|CacheSmartProject.Persistance\\CacheSmartProject.Persistance.csproj|solutionrelative:cachesmartproject.persistance\\repositories\\interfaces\\iservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97E15255-B9F4-4A4A-822A-F4311A855E68}|CacheSmartProject\\CacheSmartProject.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject\\middlewares\\exceptionhandlingmiddleware .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97E15255-B9F4-4A4A-822A-F4311A855E68}|CacheSmartProject\\CacheSmartProject.csproj|solutionrelative:cachesmartproject\\middlewares\\exceptionhandlingmiddleware .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F24B9B-59B6-4034-88FB-AB1E90121732}|CacheSmartProject.Application\\CacheSmartProject.Application.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.application\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F24B9B-59B6-4034-88FB-AB1E90121732}|CacheSmartProject.Application\\CacheSmartProject.Application.csproj|solutionrelative:cachesmartproject.application\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F24B9B-59B6-4034-88FB-AB1E90121732}|CacheSmartProject.Application\\CacheSmartProject.Application.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.application\\cachesmartproject.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F2F24B9B-59B6-4034-88FB-AB1E90121732}|CacheSmartProject.Application\\CacheSmartProject.Application.csproj|solutionrelative:cachesmartproject.application\\cachesmartproject.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97E15255-B9F4-4A4A-822A-F4311A855E68}|CacheSmartProject\\CacheSmartProject.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97E15255-B9F4-4A4A-822A-F4311A855E68}|CacheSmartProject\\CacheSmartProject.csproj|solutionrelative:cachesmartproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97E15255-B9F4-4A4A-822A-F4311A855E68}|CacheSmartProject\\CacheSmartProject.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject\\cachesmartproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{97E15255-B9F4-4A4A-822A-F4311A855E68}|CacheSmartProject\\CacheSmartProject.csproj|solutionrelative:cachesmartproject\\cachesmartproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F24B9B-59B6-4034-88FB-AB1E90121732}|CacheSmartProject.Application\\CacheSmartProject.Application.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.application\\services\\interfaces\\iserviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F24B9B-59B6-4034-88FB-AB1E90121732}|CacheSmartProject.Application\\CacheSmartProject.Application.csproj|solutionrelative:cachesmartproject.application\\services\\interfaces\\iserviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97E15255-B9F4-4A4A-822A-F4311A855E68}|CacheSmartProject\\CacheSmartProject.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject\\controllers\\storycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97E15255-B9F4-4A4A-822A-F4311A855E68}|CacheSmartProject\\CacheSmartProject.csproj|solutionrelative:cachesmartproject\\controllers\\storycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97E15255-B9F4-4A4A-822A-F4311A855E68}|CacheSmartProject\\CacheSmartProject.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97E15255-B9F4-4A4A-822A-F4311A855E68}|CacheSmartProject\\CacheSmartProject.csproj|solutionrelative:cachesmartproject\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97E15255-B9F4-4A4A-822A-F4311A855E68}|CacheSmartProject\\CacheSmartProject.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject\\controllers\\changedetectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97E15255-B9F4-4A4A-822A-F4311A855E68}|CacheSmartProject\\CacheSmartProject.csproj|solutionrelative:cachesmartproject\\controllers\\changedetectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97E15255-B9F4-4A4A-822A-F4311A855E68}|CacheSmartProject\\CacheSmartProject.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97E15255-B9F4-4A4A-822A-F4311A855E68}|CacheSmartProject\\CacheSmartProject.csproj|solutionrelative:cachesmartproject\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F24B9B-59B6-4034-88FB-AB1E90121732}|CacheSmartProject.Application\\CacheSmartProject.Application.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.application\\services\\interfaces\\istoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F24B9B-59B6-4034-88FB-AB1E90121732}|CacheSmartProject.Application\\CacheSmartProject.Application.csproj|solutionrelative:cachesmartproject.application\\services\\interfaces\\istoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF502D22-7517-49A7-84F2-E47924658351}|CacheSmartProject.Infrastructure\\CacheSmartProject.Infrastructure.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.infrastructure\\services\\storyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF502D22-7517-49A7-84F2-E47924658351}|CacheSmartProject.Infrastructure\\CacheSmartProject.Infrastructure.csproj|solutionrelative:cachesmartproject.infrastructure\\services\\storyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F24B9B-59B6-4034-88FB-AB1E90121732}|CacheSmartProject.Application\\CacheSmartProject.Application.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.application\\services\\interfaces\\ichangedetectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F24B9B-59B6-4034-88FB-AB1E90121732}|CacheSmartProject.Application\\CacheSmartProject.Application.csproj|solutionrelative:cachesmartproject.application\\services\\interfaces\\ichangedetectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF502D22-7517-49A7-84F2-E47924658351}|CacheSmartProject.Infrastructure\\CacheSmartProject.Infrastructure.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.infrastructure\\services\\changedetectionservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF502D22-7517-49A7-84F2-E47924658351}|CacheSmartProject.Infrastructure\\CacheSmartProject.Infrastructure.csproj|solutionrelative:cachesmartproject.infrastructure\\services\\changedetectionservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9636BF6D-1D0A-4C40-8426-7BEB09809BE8}|CacheSmartProject.Domain\\CacheSmartProject.Domain.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.domain\\dtos\\story\\storyupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9636BF6D-1D0A-4C40-8426-7BEB09809BE8}|CacheSmartProject.Domain\\CacheSmartProject.Domain.csproj|solutionrelative:cachesmartproject.domain\\dtos\\story\\storyupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9636BF6D-1D0A-4C40-8426-7BEB09809BE8}|CacheSmartProject.Domain\\CacheSmartProject.Domain.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.domain\\dtos\\story\\storyresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9636BF6D-1D0A-4C40-8426-7BEB09809BE8}|CacheSmartProject.Domain\\CacheSmartProject.Domain.csproj|solutionrelative:cachesmartproject.domain\\dtos\\story\\storyresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9636BF6D-1D0A-4C40-8426-7BEB09809BE8}|CacheSmartProject.Domain\\CacheSmartProject.Domain.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.domain\\dtos\\story\\storycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9636BF6D-1D0A-4C40-8426-7BEB09809BE8}|CacheSmartProject.Domain\\CacheSmartProject.Domain.csproj|solutionrelative:cachesmartproject.domain\\dtos\\story\\storycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799FC10D-E575-4373-AF5F-4D0B4FDA1D2D}|CacheSmartProject.Persistance\\CacheSmartProject.Persistance.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.persistance\\repositories\\implementations\\storyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799FC10D-E575-4373-AF5F-4D0B4FDA1D2D}|CacheSmartProject.Persistance\\CacheSmartProject.Persistance.csproj|solutionrelative:cachesmartproject.persistance\\repositories\\implementations\\storyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F24B9B-59B6-4034-88FB-AB1E90121732}|CacheSmartProject.Application\\CacheSmartProject.Application.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.application\\services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F24B9B-59B6-4034-88FB-AB1E90121732}|CacheSmartProject.Application\\CacheSmartProject.Application.csproj|solutionrelative:cachesmartproject.application\\services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF502D22-7517-49A7-84F2-E47924658351}|CacheSmartProject.Infrastructure\\CacheSmartProject.Infrastructure.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.infrastructure\\serviceregistrations\\infrastructureserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF502D22-7517-49A7-84F2-E47924658351}|CacheSmartProject.Infrastructure\\CacheSmartProject.Infrastructure.csproj|solutionrelative:cachesmartproject.infrastructure\\serviceregistrations\\infrastructureserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88FC47CF-04F2-465C-A473-77F617042B8F}|CacheSmartProject.Migrations\\CacheSmartProject.Migrations.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.migrations\\serviceregistrations\\migrationserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88FC47CF-04F2-465C-A473-77F617042B8F}|CacheSmartProject.Migrations\\CacheSmartProject.Migrations.csproj|solutionrelative:cachesmartproject.migrations\\serviceregistrations\\migrationserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799FC10D-E575-4373-AF5F-4D0B4FDA1D2D}|CacheSmartProject.Persistance\\CacheSmartProject.Persistance.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.persistance\\serviceregistrations\\persistanceserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799FC10D-E575-4373-AF5F-4D0B4FDA1D2D}|CacheSmartProject.Persistance\\CacheSmartProject.Persistance.csproj|solutionrelative:cachesmartproject.persistance\\serviceregistrations\\persistanceserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9636BF6D-1D0A-4C40-8426-7BEB09809BE8}|CacheSmartProject.Domain\\CacheSmartProject.Domain.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.domain\\dtos\\category\\categorycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9636BF6D-1D0A-4C40-8426-7BEB09809BE8}|CacheSmartProject.Domain\\CacheSmartProject.Domain.csproj|solutionrelative:cachesmartproject.domain\\dtos\\category\\categorycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9636BF6D-1D0A-4C40-8426-7BEB09809BE8}|CacheSmartProject.Domain\\CacheSmartProject.Domain.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.domain\\dtos\\category\\categoryresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9636BF6D-1D0A-4C40-8426-7BEB09809BE8}|CacheSmartProject.Domain\\CacheSmartProject.Domain.csproj|solutionrelative:cachesmartproject.domain\\dtos\\category\\categoryresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9636BF6D-1D0A-4C40-8426-7BEB09809BE8}|CacheSmartProject.Domain\\CacheSmartProject.Domain.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.domain\\dtos\\service\\serviceresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9636BF6D-1D0A-4C40-8426-7BEB09809BE8}|CacheSmartProject.Domain\\CacheSmartProject.Domain.csproj|solutionrelative:cachesmartproject.domain\\dtos\\service\\serviceresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9636BF6D-1D0A-4C40-8426-7BEB09809BE8}|CacheSmartProject.Domain\\CacheSmartProject.Domain.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.domain\\dtos\\service\\servicecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9636BF6D-1D0A-4C40-8426-7BEB09809BE8}|CacheSmartProject.Domain\\CacheSmartProject.Domain.csproj|solutionrelative:cachesmartproject.domain\\dtos\\service\\servicecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9636BF6D-1D0A-4C40-8426-7BEB09809BE8}|CacheSmartProject.Domain\\CacheSmartProject.Domain.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.domain\\dtos\\service\\serviceupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9636BF6D-1D0A-4C40-8426-7BEB09809BE8}|CacheSmartProject.Domain\\CacheSmartProject.Domain.csproj|solutionrelative:cachesmartproject.domain\\dtos\\service\\serviceupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F24B9B-59B6-4034-88FB-AB1E90121732}|CacheSmartProject.Application\\CacheSmartProject.Application.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.application\\serviceregistrations\\applicationserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F24B9B-59B6-4034-88FB-AB1E90121732}|CacheSmartProject.Application\\CacheSmartProject.Application.csproj|solutionrelative:cachesmartproject.application\\serviceregistrations\\applicationserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF502D22-7517-49A7-84F2-E47924658351}|CacheSmartProject.Infrastructure\\CacheSmartProject.Infrastructure.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.infrastructure\\cachesmartproject.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AF502D22-7517-49A7-84F2-E47924658351}|CacheSmartProject.Infrastructure\\CacheSmartProject.Infrastructure.csproj|solutionrelative:cachesmartproject.infrastructure\\cachesmartproject.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88FC47CF-04F2-465C-A473-77F617042B8F}|CacheSmartProject.Migrations\\CacheSmartProject.Migrations.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.migrations\\migrations\\20250704080101_mg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88FC47CF-04F2-465C-A473-77F617042B8F}|CacheSmartProject.Migrations\\CacheSmartProject.Migrations.csproj|solutionrelative:cachesmartproject.migrations\\migrations\\20250704080101_mg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97E15255-B9F4-4A4A-822A-F4311A855E68}|CacheSmartProject\\CacheSmartProject.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{97E15255-B9F4-4A4A-822A-F4311A855E68}|CacheSmartProject\\CacheSmartProject.csproj|solutionrelative:cachesmartproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799FC10D-E575-4373-AF5F-4D0B4FDA1D2D}|CacheSmartProject.Persistance\\CacheSmartProject.Persistance.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.persistance\\repositories\\implementations\\userprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799FC10D-E575-4373-AF5F-4D0B4FDA1D2D}|CacheSmartProject.Persistance\\CacheSmartProject.Persistance.csproj|solutionrelative:cachesmartproject.persistance\\repositories\\implementations\\userprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B10325B-376D-4041-90D6-8951C450ABCE}|docker-compose.dcproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3B10325B-376D-4041-90D6-8951C450ABCE}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B10325B-376D-4041-90D6-8951C450ABCE}|docker-compose.dcproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3B10325B-376D-4041-90D6-8951C450ABCE}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97E15255-B9F4-4A4A-822A-F4311A855E68}|CacheSmartProject\\CacheSmartProject.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{97E15255-B9F4-4A4A-822A-F4311A855E68}|CacheSmartProject\\CacheSmartProject.csproj|solutionrelative:cachesmartproject\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97E15255-B9F4-4A4A-822A-F4311A855E68}|CacheSmartProject\\CacheSmartProject.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{97E15255-B9F4-4A4A-822A-F4311A855E68}|CacheSmartProject\\CacheSmartProject.csproj|solutionrelative:cachesmartproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B10325B-376D-4041-90D6-8951C450ABCE}|docker-compose.dcproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3B10325B-376D-4041-90D6-8951C450ABCE}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97E15255-B9F4-4A4A-822A-F4311A855E68}|CacheSmartProject\\CacheSmartProject.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{97E15255-B9F4-4A4A-822A-F4311A855E68}|CacheSmartProject\\CacheSmartProject.csproj|solutionrelative:cachesmartproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88FC47CF-04F2-465C-A473-77F617042B8F}|CacheSmartProject.Migrations\\CacheSmartProject.Migrations.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.migrations\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88FC47CF-04F2-465C-A473-77F617042B8F}|CacheSmartProject.Migrations\\CacheSmartProject.Migrations.csproj|solutionrelative:cachesmartproject.migrations\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF502D22-7517-49A7-84F2-E47924658351}|CacheSmartProject.Infrastructure\\CacheSmartProject.Infrastructure.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.infrastructure\\caching\\rediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF502D22-7517-49A7-84F2-E47924658351}|CacheSmartProject.Infrastructure\\CacheSmartProject.Infrastructure.csproj|solutionrelative:cachesmartproject.infrastructure\\caching\\rediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF502D22-7517-49A7-84F2-E47924658351}|CacheSmartProject.Infrastructure\\CacheSmartProject.Infrastructure.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.infrastructure\\caching\\interfaces\\irediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF502D22-7517-49A7-84F2-E47924658351}|CacheSmartProject.Infrastructure\\CacheSmartProject.Infrastructure.csproj|solutionrelative:cachesmartproject.infrastructure\\caching\\interfaces\\irediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799FC10D-E575-4373-AF5F-4D0B4FDA1D2D}|CacheSmartProject.Persistance\\CacheSmartProject.Persistance.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.persistance\\cachesmartproject.persistance.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{799FC10D-E575-4373-AF5F-4D0B4FDA1D2D}|CacheSmartProject.Persistance\\CacheSmartProject.Persistance.csproj|solutionrelative:cachesmartproject.persistance\\cachesmartproject.persistance.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799FC10D-E575-4373-AF5F-4D0B4FDA1D2D}|CacheSmartProject.Persistance\\CacheSmartProject.Persistance.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.persistance\\repositories\\interfaces\\iuserprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799FC10D-E575-4373-AF5F-4D0B4FDA1D2D}|CacheSmartProject.Persistance\\CacheSmartProject.Persistance.csproj|solutionrelative:cachesmartproject.persistance\\repositories\\interfaces\\iuserprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{799FC10D-E575-4373-AF5F-4D0B4FDA1D2D}|CacheSmartProject.Persistance\\CacheSmartProject.Persistance.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.persistance\\repositories\\interfaces\\istoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{799FC10D-E575-4373-AF5F-4D0B4FDA1D2D}|CacheSmartProject.Persistance\\CacheSmartProject.Persistance.csproj|solutionrelative:cachesmartproject.persistance\\repositories\\interfaces\\istoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF502D22-7517-49A7-84F2-E47924658351}|CacheSmartProject.Infrastructure\\CacheSmartProject.Infrastructure.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.infrastructure\\services\\userprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF502D22-7517-49A7-84F2-E47924658351}|CacheSmartProject.Infrastructure\\CacheSmartProject.Infrastructure.csproj|solutionrelative:cachesmartproject.infrastructure\\services\\userprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F24B9B-59B6-4034-88FB-AB1E90121732}|CacheSmartProject.Application\\CacheSmartProject.Application.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.application\\services\\interfaces\\iuserprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F24B9B-59B6-4034-88FB-AB1E90121732}|CacheSmartProject.Application\\CacheSmartProject.Application.csproj|solutionrelative:cachesmartproject.application\\services\\interfaces\\iuserprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F24B9B-59B6-4034-88FB-AB1E90121732}|CacheSmartProject.Application\\CacheSmartProject.Application.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.application\\mappings\\categoryprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F24B9B-59B6-4034-88FB-AB1E90121732}|CacheSmartProject.Application\\CacheSmartProject.Application.csproj|solutionrelative:cachesmartproject.application\\mappings\\categoryprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F24B9B-59B6-4034-88FB-AB1E90121732}|CacheSmartProject.Application\\CacheSmartProject.Application.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.application\\mappings\\serviceprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F24B9B-59B6-4034-88FB-AB1E90121732}|CacheSmartProject.Application\\CacheSmartProject.Application.csproj|solutionrelative:cachesmartproject.application\\mappings\\serviceprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F24B9B-59B6-4034-88FB-AB1E90121732}|CacheSmartProject.Application\\CacheSmartProject.Application.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.application\\mappings\\storyprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F24B9B-59B6-4034-88FB-AB1E90121732}|CacheSmartProject.Application\\CacheSmartProject.Application.csproj|solutionrelative:cachesmartproject.application\\mappings\\storyprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F24B9B-59B6-4034-88FB-AB1E90121732}|CacheSmartProject.Application\\CacheSmartProject.Application.csproj|c:\\users\\namjoon\\source\\repos\\cachesmartproject\\cachesmartproject.application\\mappings\\userprofileprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F24B9B-59B6-4034-88FB-AB1E90121732}|CacheSmartProject.Application\\CacheSmartProject.Application.csproj|solutionrelative:cachesmartproject.application\\mappings\\userprofileprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 474,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServiceService.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Infrastructure\\Services\\ServiceService.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Infrastructure\\Services\\ServiceService.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Infrastructure\\Services\\ServiceService.cs",
+              "RelativeToolTip": "CacheSmartProject.Infrastructure\\Services\\ServiceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:18:43.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Persistance\\Repositories\\Implementations\\ServiceRepository.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Persistance\\Repositories\\Implementations\\ServiceRepository.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Persistance\\Repositories\\Implementations\\ServiceRepository.cs",
+              "RelativeToolTip": "CacheSmartProject.Persistance\\Repositories\\Implementations\\ServiceRepository.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAuwCwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:29:56.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Persistance\\Repositories\\Interfaces\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Persistance\\Repositories\\Interfaces\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Persistance\\Repositories\\Interfaces\\ICategoryRepository.cs",
+              "RelativeToolTip": "CacheSmartProject.Persistance\\Repositories\\Interfaces\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:30:59.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IServiceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Persistance\\Repositories\\Interfaces\\IServiceRepository.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Persistance\\Repositories\\Interfaces\\IServiceRepository.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Persistance\\Repositories\\Interfaces\\IServiceRepository.cs",
+              "RelativeToolTip": "CacheSmartProject.Persistance\\Repositories\\Interfaces\\IServiceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:31:21.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Persistance\\Repositories\\Implementations\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Persistance\\Repositories\\Implementations\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Persistance\\Repositories\\Implementations\\CategoryRepository.cs*",
+              "RelativeToolTip": "CacheSmartProject.Persistance\\Repositories\\Implementations\\CategoryRepository.cs*",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAAwIgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:29:13.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Infrastructure\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Infrastructure\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Infrastructure\\Services\\CategoryService.cs",
+              "RelativeToolTip": "CacheSmartProject.Infrastructure\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAQwHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T07:57:49.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ExceptionHandlingMiddleware .cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject\\Middlewares\\ExceptionHandlingMiddleware .cs",
+              "RelativeDocumentMoniker": "CacheSmartProject\\Middlewares\\ExceptionHandlingMiddleware .cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject\\Middlewares\\ExceptionHandlingMiddleware .cs",
+              "RelativeToolTip": "CacheSmartProject\\Middlewares\\ExceptionHandlingMiddleware .cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwC8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T11:35:57.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Application\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Application\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Application\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "CacheSmartProject.Application\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T11:37:50.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject\\Program.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject\\Program.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject\\Program.cs",
+              "RelativeToolTip": "CacheSmartProject\\Program.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:27:16.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IServiceService.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Application\\Services\\Interfaces\\IServiceService.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Application\\Services\\Interfaces\\IServiceService.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Application\\Services\\Interfaces\\IServiceService.cs",
+              "RelativeToolTip": "CacheSmartProject.Application\\Services\\Interfaces\\IServiceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:24:03.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StoryController.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject\\Controllers\\StoryController.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject\\Controllers\\StoryController.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject\\Controllers\\StoryController.cs",
+              "RelativeToolTip": "CacheSmartProject\\Controllers\\StoryController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAASwDQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T11:04:15.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CacheSmartProject.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Application\\CacheSmartProject.Application.csproj",
+              "RelativeDocumentMoniker": "CacheSmartProject.Application\\CacheSmartProject.Application.csproj",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Application\\CacheSmartProject.Application.csproj",
+              "RelativeToolTip": "CacheSmartProject.Application\\CacheSmartProject.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-04T08:20:56.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ServiceController.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject\\Controllers\\ServiceController.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject\\Controllers\\ServiceController.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject\\Controllers\\ServiceController.cs",
+              "RelativeToolTip": "CacheSmartProject\\Controllers\\ServiceController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAADUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:42:43.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ChangeDetectionController.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject\\Controllers\\ChangeDetectionController.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject\\Controllers\\ChangeDetectionController.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject\\Controllers\\ChangeDetectionController.cs",
+              "RelativeToolTip": "CacheSmartProject\\Controllers\\ChangeDetectionController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA0wCgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:42:19.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CacheSmartProject",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject\\CacheSmartProject.csproj",
+              "RelativeDocumentMoniker": "CacheSmartProject\\CacheSmartProject.csproj",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject\\CacheSmartProject.csproj",
+              "RelativeToolTip": "CacheSmartProject\\CacheSmartProject.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-07T05:50:26.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "CacheSmartProject\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwCoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T09:35:41.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IStoryService.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Application\\Services\\Interfaces\\IStoryService.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Application\\Services\\Interfaces\\IStoryService.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Application\\Services\\Interfaces\\IStoryService.cs",
+              "RelativeToolTip": "CacheSmartProject.Application\\Services\\Interfaces\\IStoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:24:14.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StoryService.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Infrastructure\\Services\\StoryService.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Infrastructure\\Services\\StoryService.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Infrastructure\\Services\\StoryService.cs",
+              "RelativeToolTip": "CacheSmartProject.Infrastructure\\Services\\StoryService.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAswD8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:18:49.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IChangeDetectionService.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Application\\Services\\Interfaces\\IChangeDetectionService.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Application\\Services\\Interfaces\\IChangeDetectionService.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Application\\Services\\Interfaces\\IChangeDetectionService.cs",
+              "RelativeToolTip": "CacheSmartProject.Application\\Services\\Interfaces\\IChangeDetectionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:23:51.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ChangeDetectionService .cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Infrastructure\\Services\\ChangeDetectionService .cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Infrastructure\\Services\\ChangeDetectionService .cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Infrastructure\\Services\\ChangeDetectionService .cs",
+              "RelativeToolTip": "CacheSmartProject.Infrastructure\\Services\\ChangeDetectionService .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:18:34.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "StoryUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Domain\\Dtos\\Story\\StoryUpdateDto.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Domain\\Dtos\\Story\\StoryUpdateDto.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Domain\\Dtos\\Story\\StoryUpdateDto.cs",
+              "RelativeToolTip": "CacheSmartProject.Domain\\Dtos\\Story\\StoryUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T11:01:29.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "StoryResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Domain\\Dtos\\Story\\StoryResponseDto.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Domain\\Dtos\\Story\\StoryResponseDto.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Domain\\Dtos\\Story\\StoryResponseDto.cs",
+              "RelativeToolTip": "CacheSmartProject.Domain\\Dtos\\Story\\StoryResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T11:01:20.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "StoryCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Domain\\Dtos\\Story\\StoryCreateDto.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Domain\\Dtos\\Story\\StoryCreateDto.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Domain\\Dtos\\Story\\StoryCreateDto.cs",
+              "RelativeToolTip": "CacheSmartProject.Domain\\Dtos\\Story\\StoryCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T11:01:04.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "StoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Persistance\\Repositories\\Implementations\\StoryRepository.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Persistance\\Repositories\\Implementations\\StoryRepository.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Persistance\\Repositories\\Implementations\\StoryRepository.cs",
+              "RelativeToolTip": "CacheSmartProject.Persistance\\Repositories\\Implementations\\StoryRepository.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAIwJIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:30:07.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Application\\Services\\Interfaces\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Application\\Services\\Interfaces\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Application\\Services\\Interfaces\\ICategoryService.cs",
+              "RelativeToolTip": "CacheSmartProject.Application\\Services\\Interfaces\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T07:56:53.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "InfrastructureServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Infrastructure\\ServiceRegistrations\\InfrastructureServiceRegistration.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Infrastructure\\ServiceRegistrations\\InfrastructureServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Infrastructure\\ServiceRegistrations\\InfrastructureServiceRegistration.cs",
+              "RelativeToolTip": "CacheSmartProject.Infrastructure\\ServiceRegistrations\\InfrastructureServiceRegistration.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAxwBkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:17:26.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MigrationServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Migrations\\ServiceRegistrations\\MigrationServiceRegistration.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Migrations\\ServiceRegistrations\\MigrationServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Migrations\\ServiceRegistrations\\MigrationServiceRegistration.cs",
+              "RelativeToolTip": "CacheSmartProject.Migrations\\ServiceRegistrations\\MigrationServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T09:43:15.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CategoryCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Domain\\Dtos\\Category\\CategoryCreateDto.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Domain\\Dtos\\Category\\CategoryCreateDto.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Domain\\Dtos\\Category\\CategoryCreateDto.cs",
+              "RelativeToolTip": "CacheSmartProject.Domain\\Dtos\\Category\\CategoryCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T07:58:55.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PersistanceServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Persistance\\ServiceRegistrations\\PersistanceServiceRegistration.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Persistance\\ServiceRegistrations\\PersistanceServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Persistance\\ServiceRegistrations\\PersistanceServiceRegistration.cs",
+              "RelativeToolTip": "CacheSmartProject.Persistance\\ServiceRegistrations\\PersistanceServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:32:16.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CategoryResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Domain\\Dtos\\Category\\CategoryResponseDto.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Domain\\Dtos\\Category\\CategoryResponseDto.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Domain\\Dtos\\Category\\CategoryResponseDto.cs",
+              "RelativeToolTip": "CacheSmartProject.Domain\\Dtos\\Category\\CategoryResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T07:59:24.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ServiceResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Domain\\Dtos\\Service\\ServiceResponseDto.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Domain\\Dtos\\Service\\ServiceResponseDto.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Domain\\Dtos\\Service\\ServiceResponseDto.cs",
+              "RelativeToolTip": "CacheSmartProject.Domain\\Dtos\\Service\\ServiceResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T06:06:32.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ServiceCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Domain\\Dtos\\Service\\ServiceCreateDto.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Domain\\Dtos\\Service\\ServiceCreateDto.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Domain\\Dtos\\Service\\ServiceCreateDto.cs",
+              "RelativeToolTip": "CacheSmartProject.Domain\\Dtos\\Service\\ServiceCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T06:28:49.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ServiceUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Domain\\Dtos\\Service\\ServiceUpdateDto.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Domain\\Dtos\\Service\\ServiceUpdateDto.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Domain\\Dtos\\Service\\ServiceUpdateDto.cs",
+              "RelativeToolTip": "CacheSmartProject.Domain\\Dtos\\Service\\ServiceUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T06:33:12.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CacheSmartProject.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Infrastructure\\CacheSmartProject.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "CacheSmartProject.Infrastructure\\CacheSmartProject.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Infrastructure\\CacheSmartProject.Infrastructure.csproj",
+              "RelativeToolTip": "CacheSmartProject.Infrastructure\\CacheSmartProject.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-04T08:19:42.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ApplicationServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Application\\ServiceRegistrations\\ApplicationServiceRegistration.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Application\\ServiceRegistrations\\ApplicationServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Application\\ServiceRegistrations\\ApplicationServiceRegistration.cs",
+              "RelativeToolTip": "CacheSmartProject.Application\\ServiceRegistrations\\ApplicationServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:23:32.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20250704080101_mg.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Migrations\\Migrations\\20250704080101_mg.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Migrations\\Migrations\\20250704080101_mg.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Migrations\\Migrations\\20250704080101_mg.cs",
+              "RelativeToolTip": "CacheSmartProject.Migrations\\Migrations\\20250704080101_mg.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAuwFoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T05:18:12.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject\\appsettings.json",
+              "RelativeDocumentMoniker": "CacheSmartProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject\\appsettings.json",
+              "RelativeToolTip": "CacheSmartProject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-04T08:37:30.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UserProfileRepository.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Persistance\\Repositories\\Implementations\\UserProfileRepository.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Persistance\\Repositories\\Implementations\\UserProfileRepository.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Persistance\\Repositories\\Implementations\\UserProfileRepository.cs",
+              "RelativeToolTip": "CacheSmartProject.Persistance\\Repositories\\Implementations\\UserProfileRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:30:16.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-07-04T16:28:04.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "CacheSmartProject\\appsettings.Production.json",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject\\appsettings.Production.json",
+              "RelativeToolTip": "CacheSmartProject\\appsettings.Production.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-04T15:52:11.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CacheSmartProject\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CacheSmartProject\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAABRwCUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-04T15:59:06.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "docker-compose.dcproj",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-04T16:23:29.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "docker-compose.override.yml",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\docker-compose.override.yml",
+              "RelativeDocumentMoniker": "docker-compose.override.yml",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\docker-compose.override.yml",
+              "RelativeToolTip": "docker-compose.override.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-07-04T16:28:32.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "CacheSmartProject\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject\\appsettings.Development.json",
+              "RelativeToolTip": "CacheSmartProject\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-04T15:50:28.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Migrations\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Migrations\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Migrations\\AppDbContext.cs",
+              "RelativeToolTip": "CacheSmartProject.Migrations\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T15:15:21.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IRedisCacheService.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Infrastructure\\Caching\\Interfaces\\IRedisCacheService.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Infrastructure\\Caching\\Interfaces\\IRedisCacheService.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Infrastructure\\Caching\\Interfaces\\IRedisCacheService.cs",
+              "RelativeToolTip": "CacheSmartProject.Infrastructure\\Caching\\Interfaces\\IRedisCacheService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:16:21.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "RedisCacheService.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Infrastructure\\Caching\\RedisCacheService.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Infrastructure\\Caching\\RedisCacheService.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Infrastructure\\Caching\\RedisCacheService.cs",
+              "RelativeToolTip": "CacheSmartProject.Infrastructure\\Caching\\RedisCacheService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:16:41.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "CacheSmartProject.Persistance.csproj",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Persistance\\CacheSmartProject.Persistance.csproj",
+              "RelativeDocumentMoniker": "CacheSmartProject.Persistance\\CacheSmartProject.Persistance.csproj",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Persistance\\CacheSmartProject.Persistance.csproj",
+              "RelativeToolTip": "CacheSmartProject.Persistance\\CacheSmartProject.Persistance.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-04T08:32:59.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IUserProfileRepository.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Persistance\\Repositories\\Interfaces\\IUserProfileRepository.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Persistance\\Repositories\\Interfaces\\IUserProfileRepository.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Persistance\\Repositories\\Interfaces\\IUserProfileRepository.cs",
+              "RelativeToolTip": "CacheSmartProject.Persistance\\Repositories\\Interfaces\\IUserProfileRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:31:30.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IStoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Persistance\\Repositories\\Interfaces\\IStoryRepository.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Persistance\\Repositories\\Interfaces\\IStoryRepository.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Persistance\\Repositories\\Interfaces\\IStoryRepository.cs",
+              "RelativeToolTip": "CacheSmartProject.Persistance\\Repositories\\Interfaces\\IStoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:31:27.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "IUserProfileService.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Application\\Services\\Interfaces\\IUserProfileService.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Application\\Services\\Interfaces\\IUserProfileService.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Application\\Services\\Interfaces\\IUserProfileService.cs",
+              "RelativeToolTip": "CacheSmartProject.Application\\Services\\Interfaces\\IUserProfileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:24:23.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "UserProfileService.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Infrastructure\\Services\\UserProfileService.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Infrastructure\\Services\\UserProfileService.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Infrastructure\\Services\\UserProfileService.cs",
+              "RelativeToolTip": "CacheSmartProject.Infrastructure\\Services\\UserProfileService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:19:08.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "UserProfileProfile.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Application\\Mappings\\UserProfileProfile.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Application\\Mappings\\UserProfileProfile.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Application\\Mappings\\UserProfileProfile.cs",
+              "RelativeToolTip": "CacheSmartProject.Application\\Mappings\\UserProfileProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:21:28.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "StoryProfile.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Application\\Mappings\\StoryProfile.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Application\\Mappings\\StoryProfile.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Application\\Mappings\\StoryProfile.cs",
+              "RelativeToolTip": "CacheSmartProject.Application\\Mappings\\StoryProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:21:25.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ServiceProfile.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Application\\Mappings\\ServiceProfile.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Application\\Mappings\\ServiceProfile.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Application\\Mappings\\ServiceProfile.cs",
+              "RelativeToolTip": "CacheSmartProject.Application\\Mappings\\ServiceProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:21:22.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CategoryProfile.cs",
+              "DocumentMoniker": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Application\\Mappings\\CategoryProfile.cs",
+              "RelativeDocumentMoniker": "CacheSmartProject.Application\\Mappings\\CategoryProfile.cs",
+              "ToolTip": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Application\\Mappings\\CategoryProfile.cs",
+              "RelativeToolTip": "CacheSmartProject.Application\\Mappings\\CategoryProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:21:12.83Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 308,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

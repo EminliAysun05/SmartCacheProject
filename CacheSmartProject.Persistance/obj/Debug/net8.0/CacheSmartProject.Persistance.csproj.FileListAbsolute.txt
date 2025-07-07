@@ -1,0 +1,16 @@
+C:\Users\namjoon\source\repos\CacheSmartProject\CacheSmartProject.Persistance\bin\Debug\net8.0\CacheSmartProject.Persistance.deps.json
+C:\Users\namjoon\source\repos\CacheSmartProject\CacheSmartProject.Persistance\bin\Debug\net8.0\CacheSmartProject.Persistance.dll
+C:\Users\namjoon\source\repos\CacheSmartProject\CacheSmartProject.Persistance\bin\Debug\net8.0\CacheSmartProject.Persistance.pdb
+C:\Users\namjoon\source\repos\CacheSmartProject\CacheSmartProject.Persistance\bin\Debug\net8.0\CacheSmartProject.Domain.dll
+C:\Users\namjoon\source\repos\CacheSmartProject\CacheSmartProject.Persistance\bin\Debug\net8.0\CacheSmartProject.Domain.pdb
+C:\Users\namjoon\source\repos\CacheSmartProject\CacheSmartProject.Persistance\obj\Debug\net8.0\CacheSmartProject.Persistance.csproj.AssemblyReference.cache
+C:\Users\namjoon\source\repos\CacheSmartProject\CacheSmartProject.Persistance\obj\Debug\net8.0\CacheSmartProject.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\namjoon\source\repos\CacheSmartProject\CacheSmartProject.Persistance\obj\Debug\net8.0\CacheSmartProject.Persistance.AssemblyInfoInputs.cache
+C:\Users\namjoon\source\repos\CacheSmartProject\CacheSmartProject.Persistance\obj\Debug\net8.0\CacheSmartProject.Persistance.AssemblyInfo.cs
+C:\Users\namjoon\source\repos\CacheSmartProject\CacheSmartProject.Persistance\obj\Debug\net8.0\CacheSmartProject.Persistance.csproj.CoreCompileInputs.cache
+C:\Users\namjoon\source\repos\CacheSmartProject\CacheSmartProject.Persistance\obj\Debug\net8.0\CacheSmartProject.Persistance.sourcelink.json
+C:\Users\namjoon\source\repos\CacheSmartProject\CacheSmartProject.Persistance\obj\Debug\net8.0\CacheSma.3B148C5E.Up2Date
+C:\Users\namjoon\source\repos\CacheSmartProject\CacheSmartProject.Persistance\obj\Debug\net8.0\CacheSmartProject.Persistance.dll
+C:\Users\namjoon\source\repos\CacheSmartProject\CacheSmartProject.Persistance\obj\Debug\net8.0\refint\CacheSmartProject.Persistance.dll
+C:\Users\namjoon\source\repos\CacheSmartProject\CacheSmartProject.Persistance\obj\Debug\net8.0\CacheSmartProject.Persistance.pdb
+C:\Users\namjoon\source\repos\CacheSmartProject\CacheSmartProject.Persistance\obj\Debug\net8.0\ref\CacheSmartProject.Persistance.dll
