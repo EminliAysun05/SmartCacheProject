@@ -24,6 +24,10 @@ public static class InfrastructureServiceRegistration
         services.AddScoped<IStoryService, StoryService>();
         services.AddScoped<IUserProfileService, UserProfileService>();
         services.AddScoped<ICategoryService, CategoryService>();
+        services.AddScoped<CacheWarmingService>();
+        services.AddScoped<ICacheWarmingService, StoryService>();
+        services.AddScoped<ICacheWarmingService, ServiceService>();
+        services.AddScoped<ICacheWarmingService, CategoryService>();
         services.AddScoped<IDatabase>(sp =>
         {
             var multiplexer = sp.GetRequiredService<IConnectionMultiplexer>();

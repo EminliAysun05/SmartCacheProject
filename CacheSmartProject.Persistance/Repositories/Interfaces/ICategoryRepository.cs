@@ -1,6 +1,4 @@
-﻿
-
-using CacheSmartProject.Domain.Entities;
+﻿using CacheSmartProject.Domain.Entities;
 
 namespace CacheSmartProject.Persistence.Repositories.Interfaces
 {

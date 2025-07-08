@@ -1,6 +1,4 @@
-﻿
-
-using AutoMapper;
+﻿using AutoMapper;
 using CacheSmartProject.Domain.Dtos.UserProfile;
 using CacheSmartProject.Domain.Entities;
 using Microsoft.Data.SqlClient;

@@ -558,6 +558,9 @@
       },
       "System.Threading.Channels/6.0.0": {},
       "CacheSmartProject.Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Memory": "8.0.0"
+        },
         "runtime": {
           "CacheSmartProject.Domain.dll": {
             "assemblyVersion": "1.0.0",

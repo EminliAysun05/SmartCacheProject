@@ -36,7 +36,7 @@ public class StoryRepository : IStoryRepository
         await command.ExecuteNonQueryAsync();
     }
 
-    public async Task Delete(int id)
+    public async Task<bool> Delete(int id)
     {
         var query = @"DELETE FROM ""Stories"" WHERE ""Id"" = @Id";
 
@@ -46,7 +46,8 @@ public class StoryRepository : IStoryRepository
         using var command = new NpgsqlCommand(query, connection);
         command.Parameters.AddWithValue("@Id", id);
 
-        await command.ExecuteNonQueryAsync();
+        int affectedRows = await command.ExecuteNonQueryAsync();
+        return affectedRows > 0;
     }
 
     public async Task<List<Story>> GetAllAsync()

@@ -1,6 +1,4 @@
-﻿using System.Data;
-
-namespace CacheSmartProject.Infrastructure.Caching.Interfaces;
+﻿namespace CacheSmartProject.Infrastructure.Caching.Interfaces;
 
 public interface IRedisCacheService
 {

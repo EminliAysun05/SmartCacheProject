@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using CacheSmartProject.Domain.Dtos.Service;
 using CacheSmartProject.Domain.Entities;
+using CacheSmartProject.Infrastructure.Caching.Interfaces;
 using CacheSmartProject.Persistence.Repositories.Interfaces;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Caching.Memory;
@@ -11,7 +12,7 @@ using System.Text.Json;
 
 namespace CacheSmartProject.Infrastructure.Services;
 
-public class ServiceService : IServiceService
+public class ServiceService : IServiceService, ICacheWarmingService
 {
     private const string DataKey = "services:data";
     private const string LastModifiedKey = "services:lastModified";
@@ -38,7 +39,7 @@ public class ServiceService : IServiceService
         {
             if (_memoryCache.TryGetValue("services", out List<Service> cachedServices))
             {
-                Console.WriteLine("✔ Data loaded from MemoryCache");
+                Console.WriteLine("Data loaded from MemoryCache");
                 return _mapper.Map<List<ServiceResponseDto>>(cachedServices);
             }
 
@@ -50,7 +51,7 @@ public class ServiceService : IServiceService
                     var redisServices = JsonSerializer.Deserialize<List<Service>>(redisData);
                     if (redisServices is not null)
                     {
-                        Console.WriteLine("✔ Data loaded from Redis");
+                        Console.WriteLine("Data loaded from Redis");
                         _memoryCache.Set("services", redisServices, TimeSpan.FromMinutes(5));
                         return _mapper.Map<List<ServiceResponseDto>>(redisServices);
                     }
@@ -62,7 +63,7 @@ public class ServiceService : IServiceService
             }
 
             var dbServices = await _repository.GetAllAsync();
-            Console.WriteLine("✔ Data loaded from Database");
+            Console.WriteLine("Data loaded from Database");
 
             var serialized = JsonSerializer.Serialize(dbServices);
             await _redisDb.StringSetAsync("services", serialized);
@@ -104,22 +105,6 @@ public class ServiceService : IServiceService
         catch (Exception ex)
         {
             _logger.LogError(ex, "Service əlavə edilərkən xəta baş verdi.");
-            throw;
-        }
-    }
-
-    public async Task UpdateAsync(ServiceUpdateDto dto)
-    {
-        try
-        {
-            var entity = _mapper.Map<Service>(dto);
-            entity.LastModified = DateTime.UtcNow;
-            await _repository.Update(entity);
-            await InvalidateCache();
-        }
-        catch (Exception ex)
-        {
-            _logger.LogError(ex, "Service yenilənərkən xəta baş verdi.");
             throw;
         }
     }
@@ -199,5 +184,42 @@ public class ServiceService : IServiceService
         }
     }
 
+    public async Task<bool> UpdateAsync(ServiceUpdateDto dto)
+    {
+        try
+        {
+            var entity = _mapper.Map<Service>(dto);
+            entity.LastModified = DateTime.UtcNow;
 
+            var updated = await _repository.Update(entity);
+
+            if (updated)
+            {
+                await InvalidateCache(); 
+            }
+            else
+            {
+                _logger.LogWarning("Yenilənəcək Service tapılmadı. ID: {Id}", entity.Id);
+            }
+
+            return updated;
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Service yenilənərkən xəta baş verdi.");
+            throw;
+        }
+    }
+
+    public async Task WarmUpAsync()
+    {
+        var services = await _repository.GetAllAsync();
+        var response = _mapper.Map<List<ServiceResponseDto>>(services);
+
+        await _redisDb.StringSetAsync("services:data", JsonSerializer.Serialize(response));
+        await _redisDb.StringSetAsync("services:lastModified", DateTime.UtcNow.ToString("O"));
+        _memoryCache.Set("services:memory", response, TimeSpan.FromMinutes(5));
+
+        Console.WriteLine("Service cache warmed.");
+    }
 }

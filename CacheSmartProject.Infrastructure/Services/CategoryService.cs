@@ -2,7 +2,7 @@
 using CacheSmartProject.Application.Services.Interfaces;
 using CacheSmartProject.Domain.Dtos.Category;
 using CacheSmartProject.Domain.Entities;
-using CacheSmartProject.Persistence.Repositories.Implementations;
+using CacheSmartProject.Infrastructure.Caching.Interfaces;
 using CacheSmartProject.Persistence.Repositories.Interfaces;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Logging;
@@ -11,7 +11,7 @@ using System.Text.Json;
 
 namespace CacheSmartProject.Infrastructure.Services;
 
-public class CategoryService : ICategoryService
+public class CategoryService : ICategoryService, ICacheWarmingService
 {
     private const string DataKey = "categories:data";
     private const string LastModifiedKey = "categories:lastModified";
@@ -53,14 +53,14 @@ public class CategoryService : ICategoryService
                 var redisCategories = JsonSerializer.Deserialize<List<Category>>(redisData);
                 if (redisCategories is not null)
                 {
-                    _logger.LogInformation("✔ Data loaded from Redis");
+                    _logger.LogInformation("Data loaded from Redis");
                     _memoryCache.Set(MemoryCacheKey, redisCategories, TimeSpan.FromMinutes(5));
                     return _mapper.Map<List<CategoryResponseDto>>(redisCategories);
                 }
             }
 
             var dbCategories = await _repository.GetAllAsync();
-            _logger.LogInformation("✔ Data loaded from Database");
+            _logger.LogInformation("Data loaded from Database");
 
             string json = JsonSerializer.Serialize(dbCategories);
             await _redisDb.StringSetAsync(DataKey, json);
@@ -80,6 +80,16 @@ public class CategoryService : ICategoryService
     {
         try
         {
+            if(dto.ParentId.HasValue)
+        {
+                var parent = await _repository.GetByIdAsync(dto.ParentId.Value);
+                if (parent == null)
+                {
+                    _logger.LogWarning("Mövcud olmayan ParentId ilə category əlavə edilməyə çalışıldı. ParentId: {ParentId}", dto.ParentId);
+                    throw new ArgumentException($"Parent category with ID {dto.ParentId} does not exist.");
+                }
+            }
+
             var category = _mapper.Map<Category>(dto);
             category.LastModified = DateTime.UtcNow;
             await _repository.AddAsync(category);
@@ -96,6 +106,23 @@ public class CategoryService : ICategoryService
     {
         try
         {
+            var existing = await _repository.GetByIdAsync(dto.Id);
+            if (existing == null)
+            {
+                _logger.LogWarning("Yenilənəcək category tapılmadı. ID: {Id}", dto.Id);
+                throw new KeyNotFoundException($"Category with ID {dto.Id} not found.");
+            }
+
+            if (dto.ParentId.HasValue)
+            {
+                var parent = await _repository.GetByIdAsync(dto.ParentId.Value);
+                if (parent == null)
+                {
+                    _logger.LogWarning("Yeniləmə zamanı mövcud olmayan ParentId göstərildi. ParentId: {ParentId}", dto.ParentId);
+                    throw new ArgumentException($"Parent category with ID {dto.ParentId} does not exist.");
+                }
+            }
+
             var category = _mapper.Map<Category>(dto);
             category.LastModified = DateTime.UtcNow;
             bool updated = await _repository.Update(category);
@@ -153,5 +180,15 @@ public class CategoryService : ICategoryService
     {
         var dbLastModified = await _repository.GetLastModifiedAsync();
         return dbLastModified != null && dbLastModified > clientLastModified;
+    }
+
+    public async Task WarmUpAsync()
+    {
+        var categories = await _repository.GetAllAsync();
+        var dtoList = _mapper.Map<List<CategoryResponseDto>>(categories);
+
+        await _redisDb.StringSetAsync("categories:data", JsonSerializer.Serialize(dtoList));
+        _memoryCache.Set("categories:memory", dtoList, TimeSpan.FromMinutes(5));
+        Console.WriteLine("Category cache warmed.");
     }
 }

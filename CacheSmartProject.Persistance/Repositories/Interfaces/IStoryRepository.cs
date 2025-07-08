@@ -9,6 +9,6 @@ public interface IStoryRepository
     Task<Story?> GetByIdAsync(int id);
     Task AddAsync(Story story);
     Task Update(Story story);
-    Task Delete(int id);
+    Task<bool> Delete(int id);
     Task<DateTime?> GetLastModifiedAsync();
 }

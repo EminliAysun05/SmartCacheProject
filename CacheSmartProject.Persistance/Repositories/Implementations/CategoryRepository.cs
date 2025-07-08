@@ -1,7 +1,5 @@
-﻿
-using CacheSmartProject.Domain.Entities;
+﻿using CacheSmartProject.Domain.Entities;
 using CacheSmartProject.Persistence.Repositories.Interfaces;
-using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
 using Npgsql;
 
@@ -120,10 +118,6 @@ public class CategoryRepository : ICategoryRepository
         return result is DBNull or null ? null : Convert.ToDateTime(result);
     }
 
-   
-
-
-
     public async Task<bool> Update(Category category)
     {
         var query = @"
@@ -138,6 +132,7 @@ public class CategoryRepository : ICategoryRepository
         command.Parameters.AddWithValue("@Id", category.Id);
         command.Parameters.AddWithValue("@Name", category.Name);
         command.Parameters.AddWithValue("@LastModified", category.LastModified);
+        command.Parameters.AddWithValue("@IsActive", category.IsActive);
 
         int affectedRows = await command.ExecuteNonQueryAsync();
         return affectedRows > 0;

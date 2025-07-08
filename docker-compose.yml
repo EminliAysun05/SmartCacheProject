@@ -4,3 +4,15 @@ services:
     build:
       context: .
       dockerfile: CacheSmartProject/Dockerfile
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: aysun
+      POSTGRES_PASSWORD: aysun123
+      POSTGRES_DB: cachesmartproject
+    ports:
+      - "5432:5432"

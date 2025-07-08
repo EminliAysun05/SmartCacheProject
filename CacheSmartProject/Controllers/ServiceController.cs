@@ -1,8 +1,6 @@
 ﻿using CacheSmartProject.Domain.Dtos.Service;
-using CacheSmartProject.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 using SmartCacheProject.Application.Services.Interfaces;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 
 namespace CacheSmartProject.API.Controllers;
@@ -18,7 +16,6 @@ public class ServiceController : ControllerBase
         _serviceService = serviceService;
     }
 
-    // GET: api/services?lastModified=2024-01-01T00:00:00Z
     [HttpGet]
     public async Task<IActionResult> GetAll([FromQuery] DateTime? lastModified)
     {
@@ -26,7 +23,6 @@ public class ServiceController : ControllerBase
         return Ok(services);
     }
 
-    // POST: api/services
     [HttpPost]
     public async Task<IActionResult> Create(ServiceCreateDto dto)
     {
@@ -34,18 +30,19 @@ public class ServiceController : ControllerBase
         return Ok(new { message = "Service yaradıldı." });
     }
 
-    // PUT: api/services/{id}
     [HttpPut("{id}")]
     public async Task<IActionResult> Update(int id, ServiceUpdateDto dto)
     {
         if (id != dto.Id)
-            return BadRequest("ID uyğun deyil.");
+            return BadRequest("ID uyğun deyil");
 
-        await _serviceService.UpdateAsync(dto);
-        return Ok(new { message = "Service yeniləndi." });
+        var result = await _serviceService.UpdateAsync(dto);
+        if (!result)
+            return NotFound($"ID tapılmadı: {dto.Id}");
+
+        return NoContent();
     }
 
-    // DELETE: api/services/{id}
     [HttpDelete("{id}")]
     public async Task<IActionResult> Delete(int id)
     {

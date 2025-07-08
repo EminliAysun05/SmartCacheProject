@@ -1,5 +1,4 @@
 ﻿using CacheSmartProject.Infrastructure.Caching.Interfaces;
-
 using StackExchange.Redis;
 using System.Text.Json;
 

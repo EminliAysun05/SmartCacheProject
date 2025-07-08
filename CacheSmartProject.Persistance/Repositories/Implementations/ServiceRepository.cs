@@ -1,8 +1,6 @@
-﻿using Microsoft.Extensions.Configuration;
-
-using Microsoft.Data.SqlClient;
-using CacheSmartProject.Domain.Entities;
+﻿using CacheSmartProject.Domain.Entities;
 using CacheSmartProject.Persistence.Repositories.Interfaces;
+using Microsoft.Extensions.Configuration;
 using Npgsql;
 
 namespace CacheSmartProject.Persistence.Repositories.Implementations;
@@ -46,9 +44,8 @@ public class ServiceRepository : IServiceRepository
         command.Parameters.AddWithValue("@Id", id);
 
         int affectedRows = await command.ExecuteNonQueryAsync();
-        return affectedRows > 0; // Silinibsə true, yoxsa false
+        return affectedRows > 0; 
     }
-
 
     public async Task<List<Service>> GetAllAsync()
     {
@@ -110,19 +107,20 @@ public class ServiceRepository : IServiceRepository
         return result is DBNull ? null : Convert.ToDateTime(result);
     }
 
-    public async Task Update(Service service)
+    public async Task<bool> Update(Service service)
     {
-            var query = @"
+        var query = @"
         UPDATE ""Services""
         SET ""Name"" = @Name,
             ""Description"" = @Description,
             ""Price"" = @Price,
             ""LastModified"" = @LastModified,
             ""IsActive"" = @IsActive
-        WHERE ""Id"" = @Id";    
+        WHERE ""Id"" = @Id";
 
-        await using var connection = GetConnection();
+        using var connection = GetConnection();
         await connection.OpenAsync();
+
         await using var command = new NpgsqlCommand(query, connection);
         command.Parameters.AddWithValue("Name", service.Name);
         command.Parameters.AddWithValue("Description", (object?)service.Description ?? DBNull.Value);
@@ -131,7 +129,10 @@ public class ServiceRepository : IServiceRepository
         command.Parameters.AddWithValue("IsActive", service.IsActive);
         command.Parameters.AddWithValue("Id", service.Id);
 
-        await command.ExecuteNonQueryAsync();
+
+        var affectedRows = await command.ExecuteNonQueryAsync();
+        return affectedRows > 0;
     }
+
 }
 

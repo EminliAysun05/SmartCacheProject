@@ -16,9 +16,9 @@ public class StoryController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<IActionResult> GetAll()
+    public async Task<IActionResult> GetAll([FromQuery] DateTime? lastModified)
     {
-        var result = await _storyService.GetAllAsync();
+        var result = await _storyService.GetStoriesAlwaysAsync(lastModified);
         return Ok(result);
     }
 
