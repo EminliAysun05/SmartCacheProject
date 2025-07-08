@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using CacheSmartProject.Application.Exceptions;
 using CacheSmartProject.Application.Services.Interfaces;
 using CacheSmartProject.Domain.Dtos.Category;
 using CacheSmartProject.Domain.Entities;
@@ -43,7 +44,7 @@ public class CategoryService : ICategoryService, ICacheWarmingService
         {
             if (_memoryCache.TryGetValue(MemoryCacheKey, out List<Category> memoryData))
             {
-                _logger.LogInformation("✔ Data loaded from MemoryCache");
+                _logger.LogInformation("Data loaded from MemoryCache");
                 return _mapper.Map<List<CategoryResponseDto>>(memoryData);
             }
 
@@ -86,7 +87,7 @@ public class CategoryService : ICategoryService, ICacheWarmingService
                 if (parent == null)
                 {
                     _logger.LogWarning("Mövcud olmayan ParentId ilə category əlavə edilməyə çalışıldı. ParentId: {ParentId}", dto.ParentId);
-                    throw new ArgumentException($"Parent category with ID {dto.ParentId} does not exist.");
+                    throw new ValidationException($"Parent category with ID {dto.ParentId} does not exist.");
                 }
             }
 
@@ -110,7 +111,7 @@ public class CategoryService : ICategoryService, ICacheWarmingService
             if (existing == null)
             {
                 _logger.LogWarning("Yenilənəcək category tapılmadı. ID: {Id}", dto.Id);
-                throw new KeyNotFoundException($"Category with ID {dto.Id} not found.");
+                throw new NotFoundException($"Category with ID {dto.Id} not found.");
             }
 
             if (dto.ParentId.HasValue)
@@ -119,7 +120,7 @@ public class CategoryService : ICategoryService, ICacheWarmingService
                 if (parent == null)
                 {
                     _logger.LogWarning("Yeniləmə zamanı mövcud olmayan ParentId göstərildi. ParentId: {ParentId}", dto.ParentId);
-                    throw new ArgumentException($"Parent category with ID {dto.ParentId} does not exist.");
+                    throw new ValidationException($"Parent category with ID {dto.ParentId} does not exist.");
                 }
             }
 
@@ -129,7 +130,7 @@ public class CategoryService : ICategoryService, ICacheWarmingService
             if (!updated)
             {
                 _logger.LogWarning("Yenilənəcək category tapılmadı. ID: {Id}", category.Id);
-                throw new KeyNotFoundException($"Category with ID {category.Id} not found.");
+                throw new NotFoundException($"Category with ID {category.Id} not found.");
             }
 
             await InvalidateCache();
@@ -150,7 +151,7 @@ public class CategoryService : ICategoryService, ICacheWarmingService
             if (!deleted)
             {
                 _logger.LogWarning("Silinəcək category tapılmadı. ID: {Id}", id);
-                throw new KeyNotFoundException($"Category with ID {id} not found.");
+                throw new NotFoundException($"Category with ID {id} not found.");
             }
 
             await InvalidateCache();

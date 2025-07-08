@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using CacheSmartProject.Application.Exceptions;
 using CacheSmartProject.Domain.Dtos.Story;
 using CacheSmartProject.Domain.Entities;
 using CacheSmartProject.Infrastructure.Caching.Interfaces;
@@ -119,7 +120,7 @@ public class StoryService : IStoryService, ICacheWarmingService
             if (existing == null)
             {
                 _logger.LogWarning("Yenilənəcək story tapılmadı. ID: {Id}", dto.Id);
-                throw new KeyNotFoundException($"Story with ID {dto.Id} not found.");
+                throw new NotFoundException($"Story with ID {dto.Id} not found.");
             }
 
             existing.Title = dto.Title;
@@ -147,7 +148,7 @@ public class StoryService : IStoryService, ICacheWarmingService
             if (!deleted)
             {
                 _logger.LogWarning("Silinəcək story tapılmadı. ID: {Id}", id);
-                throw new KeyNotFoundException($"Story with ID {id} not found.");
+                throw new NotFoundException($"Story with ID {id} not found.");
             }
 
             await InvalidateCacheAsync();

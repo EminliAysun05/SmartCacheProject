@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using CacheSmartProject.Application.Exceptions;
 using CacheSmartProject.Domain.Dtos.Service;
 using CacheSmartProject.Domain.Entities;
 using CacheSmartProject.Infrastructure.Caching.Interfaces;
@@ -117,7 +118,7 @@ public class ServiceService : IServiceService, ICacheWarmingService
             if (!deleted)
             {
                 _logger.LogWarning("ID {Id} üçün servis tapılmadı.", id);
-                throw new KeyNotFoundException($"Service with ID {id} not found.");
+                throw new NotFoundException($"Service with ID {id} not found.");
             }
 
             await InvalidateCache();
