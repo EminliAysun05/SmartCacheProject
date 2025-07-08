@@ -1,6 +1,6 @@
 # 📦 CacheSmartProject
 
-CacheSmartProject məlumatları yüksək performansla və səmərəli şəkildə idarə etmək üçün **Redis** və **MemoryCache** texnologiyalarını birləşdirən müasir bir `.NET 7` əsaslı tətbiqdir. Layihənin əsas məqsədi **cache warming**, **change detection** və **data consistency** problemlərinə həll təqdim etməkdir.
+CacheSmartProject məlumatları yüksək performansla və səmərəli şəkildə idarə etmək üçün **Redis** və **MemoryCache** texnologiyalarını birləşdirən müasir bir `.NET 8` əsaslı tətbiqdir. Layihənin əsas məqsədi **cache warming**, **change detection** və **data consistency** problemlərinə həll təqdim etməkdir.
 
 ## 🚀 Məqsəd
 
@@ -18,7 +18,8 @@ CacheSmartProject məlumatları yüksək performansla və səmərəli şəkildə
 * `Persistence`: ADO.NET ilə PostgreSQL əsaslı Repository-lər
 * `Infrastructure`: Service qatları, Redis və MemoryCache ilə işləyən logika
 * `Application`: Service interfeysləri və cache strategiyaları
-* `Presentation`: (əlavə edilə bilər) API və ya UI təqdimatı
+* `Presentation`: API və ya UI təqdimatı
+* `Migrations`: Migrations fayları və DbContext
 
 ### 🔹 Texnologiyalar
 
@@ -29,7 +30,7 @@ CacheSmartProject məlumatları yüksək performansla və səmərəli şəkildə
 * `IMemoryCache`
 * `AutoMapper`
 * `ILogger`
-* `Swagger` (əlavə edilə bilər)
+* `Swagger` 
 
 ---
 
