@@ -1,6 +1,4 @@
-﻿
-
-using CacheSmartProject.Domain.Dtos.UserProfile;
+﻿using CacheSmartProject.Domain.Dtos.UserProfile;
 
 namespace SmartCacheProject.Application.Services.Interfaces;
 

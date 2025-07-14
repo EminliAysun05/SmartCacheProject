@@ -1,8 +1,4 @@
-﻿
-
-using CacheSmartProject.Domain.Dtos.Service;
-using CacheSmartProject.Domain.Dtos.Story;
-using System.Threading.Tasks;
+﻿using CacheSmartProject.Domain.Dtos.Story;
 
 namespace SmartCacheProject.Application.Services.Interfaces;
 

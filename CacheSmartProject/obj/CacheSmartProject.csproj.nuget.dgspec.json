@@ -11,7 +11,7 @@
         "projectName": "CacheSmartProject.Application",
         "projectPath": "C:\\Users\\namjoon\\source\\repos\\SmartCacheProjecta\\CacheSmartProject.Application\\CacheSmartProject.Application.csproj",
         "packagesPath": "C:\\Users\\namjoon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\namjoon\\Source\\Repos\\SmartCacheProjecta\\CacheSmartProject.Application\\obj\\",
+        "outputPath": "C:\\Users\\namjoon\\source\\repos\\SmartCacheProjecta\\CacheSmartProject.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -98,7 +98,7 @@
         "projectName": "CacheSmartProject.Domain",
         "projectPath": "C:\\Users\\namjoon\\source\\repos\\SmartCacheProjecta\\CacheSmartProject.Domain\\CacheSmartProject.Domain.csproj",
         "packagesPath": "C:\\Users\\namjoon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\namjoon\\Source\\Repos\\SmartCacheProjecta\\CacheSmartProject.Domain\\obj\\",
+        "outputPath": "C:\\Users\\namjoon\\source\\repos\\SmartCacheProjecta\\CacheSmartProject.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -175,7 +175,7 @@
         "projectName": "CacheSmartProject.Infrastructure",
         "projectPath": "C:\\Users\\namjoon\\source\\repos\\SmartCacheProjecta\\CacheSmartProject.Infrastructure\\CacheSmartProject.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\namjoon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\namjoon\\Source\\Repos\\SmartCacheProjecta\\CacheSmartProject.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\namjoon\\source\\repos\\SmartCacheProjecta\\CacheSmartProject.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -272,7 +272,7 @@
         "projectName": "CacheSmartProject.Migrations",
         "projectPath": "C:\\Users\\namjoon\\source\\repos\\SmartCacheProjecta\\CacheSmartProject.Migrations\\CacheSmartProject.Migrations.csproj",
         "packagesPath": "C:\\Users\\namjoon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\namjoon\\Source\\Repos\\SmartCacheProjecta\\CacheSmartProject.Migrations\\obj\\",
+        "outputPath": "C:\\Users\\namjoon\\source\\repos\\SmartCacheProjecta\\CacheSmartProject.Migrations\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -363,7 +363,7 @@
         "projectName": "CacheSmartProject.Persistance",
         "projectPath": "C:\\Users\\namjoon\\source\\repos\\SmartCacheProjecta\\CacheSmartProject.Persistance\\CacheSmartProject.Persistance.csproj",
         "packagesPath": "C:\\Users\\namjoon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\namjoon\\Source\\Repos\\SmartCacheProjecta\\CacheSmartProject.Persistance\\obj\\",
+        "outputPath": "C:\\Users\\namjoon\\source\\repos\\SmartCacheProjecta\\CacheSmartProject.Persistance\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -454,7 +454,7 @@
         "projectName": "CacheSmartProject",
         "projectPath": "C:\\Users\\namjoon\\source\\repos\\SmartCacheProjecta\\CacheSmartProject\\CacheSmartProject.csproj",
         "packagesPath": "C:\\Users\\namjoon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\namjoon\\Source\\Repos\\SmartCacheProjecta\\CacheSmartProject\\obj\\",
+        "outputPath": "C:\\Users\\namjoon\\source\\repos\\SmartCacheProjecta\\CacheSmartProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
