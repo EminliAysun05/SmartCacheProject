@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CacheSmartProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+804917d7841f79057c88f67686e8440f04ed83da")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1fcd5e9a2cb0caa398803e6e7fb49b86146ba9ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("CacheSmartProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CacheSmartProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

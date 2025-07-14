@@ -1,5 +1,4 @@
 ﻿using CacheSmartProject.Application.Exceptions;
-using System.ComponentModel.DataAnnotations;
 using System.Net;
 using System.Text.Json;
 

@@ -2190,11 +2190,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Domain\\CacheSmartProject.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\namjoon\\source\\repos\\SmartCacheProjecta\\CacheSmartProject.Domain\\CacheSmartProject.Domain.csproj",
       "projectName": "CacheSmartProject.Domain",
-      "projectPath": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Domain\\CacheSmartProject.Domain.csproj",
+      "projectPath": "C:\\Users\\namjoon\\source\\repos\\SmartCacheProjecta\\CacheSmartProject.Domain\\CacheSmartProject.Domain.csproj",
       "packagesPath": "C:\\Users\\namjoon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Domain\\obj\\",
+      "outputPath": "C:\\Users\\namjoon\\Source\\Repos\\SmartCacheProjecta\\CacheSmartProject.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

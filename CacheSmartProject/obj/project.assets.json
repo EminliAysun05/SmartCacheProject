@@ -4245,11 +4245,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject\\CacheSmartProject.csproj",
+      "projectUniqueName": "C:\\Users\\namjoon\\source\\repos\\SmartCacheProjecta\\CacheSmartProject\\CacheSmartProject.csproj",
       "projectName": "CacheSmartProject",
-      "projectPath": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject\\CacheSmartProject.csproj",
+      "projectPath": "C:\\Users\\namjoon\\source\\repos\\SmartCacheProjecta\\CacheSmartProject\\CacheSmartProject.csproj",
       "packagesPath": "C:\\Users\\namjoon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject\\obj\\",
+      "outputPath": "C:\\Users\\namjoon\\Source\\Repos\\SmartCacheProjecta\\CacheSmartProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4271,17 +4271,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Application\\CacheSmartProject.Application.csproj": {
-              "projectPath": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Application\\CacheSmartProject.Application.csproj"
+            "C:\\Users\\namjoon\\source\\repos\\SmartCacheProjecta\\CacheSmartProject.Application\\CacheSmartProject.Application.csproj": {
+              "projectPath": "C:\\Users\\namjoon\\source\\repos\\SmartCacheProjecta\\CacheSmartProject.Application\\CacheSmartProject.Application.csproj"
             },
-            "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Infrastructure\\CacheSmartProject.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Infrastructure\\CacheSmartProject.Infrastructure.csproj"
+            "C:\\Users\\namjoon\\source\\repos\\SmartCacheProjecta\\CacheSmartProject.Infrastructure\\CacheSmartProject.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\namjoon\\source\\repos\\SmartCacheProjecta\\CacheSmartProject.Infrastructure\\CacheSmartProject.Infrastructure.csproj"
             },
-            "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Migrations\\CacheSmartProject.Migrations.csproj": {
-              "projectPath": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Migrations\\CacheSmartProject.Migrations.csproj"
+            "C:\\Users\\namjoon\\source\\repos\\SmartCacheProjecta\\CacheSmartProject.Migrations\\CacheSmartProject.Migrations.csproj": {
+              "projectPath": "C:\\Users\\namjoon\\source\\repos\\SmartCacheProjecta\\CacheSmartProject.Migrations\\CacheSmartProject.Migrations.csproj"
             },
-            "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Persistance\\CacheSmartProject.Persistance.csproj": {
-              "projectPath": "C:\\Users\\namjoon\\source\\repos\\CacheSmartProject\\CacheSmartProject.Persistance\\CacheSmartProject.Persistance.csproj"
+            "C:\\Users\\namjoon\\source\\repos\\SmartCacheProjecta\\CacheSmartProject.Persistance\\CacheSmartProject.Persistance.csproj": {
+              "projectPath": "C:\\Users\\namjoon\\source\\repos\\SmartCacheProjecta\\CacheSmartProject.Persistance\\CacheSmartProject.Persistance.csproj"
             }
           }
         }
